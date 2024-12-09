@@ -2,7 +2,7 @@
 namespace Tyuiu.GrabinaSA.Sprint6.Task0.V26.Test
 {
     [TestClass]
-    public sealed class Test1
+    public sealed class DataServiceTest
     {
         [TestMethod]
         public void TestMethod1()
