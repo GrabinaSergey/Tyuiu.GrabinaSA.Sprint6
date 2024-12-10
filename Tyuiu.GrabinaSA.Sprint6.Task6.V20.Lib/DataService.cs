@@ -4,7 +4,8 @@ namespace Tyuiu.GrabinaSA.Sprint6.Task6.V20.Lib
     public class DataService : ISprint6Task6V20
     {
         public int len;
-        public string CollectTextFromFile(string str, string path)
+
+        public string CollectTextFromFile(string path)
         {
             string strResult;
             using (StreamReader reader = new StreamReader(path))
